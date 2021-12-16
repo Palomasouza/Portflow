@@ -1,0 +1,189 @@
+@import url('/home/vainaweb26/Desafiofinal/fonts/Montserrat-Bold.ttf');
+@import url('/home/vainaweb26/Desafiofinal/fonts/Montserrat-ExtraBold.ttf');
+@import url('/home/vainaweb26/Desafiofinal/fonts/Montserrat-Light.ttf');
+
+*{
+box-sizing: border-box;
+    
+}
+body{
+    width: 95%;
+    height: 100%;
+    position: relative;
+    top: 60px;
+    left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+header{
+    top: 0;
+    left: 0%;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    opacity: 1;
+    background-color: white;
+
+}
+.container-menu{
+    margin: 0%;
+    padding: 0%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-menu{
+    position: fixed;
+    left: 6%;
+    font-family: 'Montsserat, Bold', sans-serif;
+
+}
+
+.box-list-menu{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+.box-list{
+    display: flex;
+    flex-direction: row;
+}
+.list-menu{
+
+    width: 552px;
+    height: 30px; 
+    position:relative;
+    left: 9.5%;
+    padding: 3%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.list-menu1{
+    opacity: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-menu4{
+    display: flex;
+    font-weight: bold;
+}
+
+
+.img-laranja{
+    width: 100%;
+}
+
+.box-laranja{
+
+}
+
+.text-imagine{
+    left: 10%;
+    top: 31%;
+    display: flex;
+    position: absolute;
+    font-size: 320%;
+    font-weight: bold;
+    font-family: 'Montserrat, ExtraBold', sans-serif;
+    color: #FFFFFF;
+}
+.text-fale{
+    font-family: 'Montserrat,Light', sans-serif;
+    display: flex;
+    position: absolute;
+    top: 56%;
+    left: 10%;
+    color: #ffffff;
+    font-weight: 100;
+    opacity: 90%;
+}
+.box-prancheta{
+    width: 83%;
+    display: flex;
+    line-height: 26px;
+    word-spacing: 4px;
+    position: absolute;
+    left: 10%;
+    top: 110%;
+}
+
+.img-prancheta1{
+    width: 24%;
+}
+
+
+.box-footer{
+    height: 75px;
+    font-style: Gainsboro;
+    opacity: 1;
+    position: absolute;
+    top: 200%;
+}
+.container-footer{
+    position: relative;
+    left: -100%;
+    top: 454%;
+    background-color: rgb(220 220 220 / 29%);
+    display: flex;
+    width: 199%;
+    height: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+   
+.box-img-footer{
+    position: relative;
+    left: 3.5%;
+    width: 25%;
+    letter-spacing: 17px;
+}
+
+
+.img-footer1{
+    width: 3.5%;
+
+}
+.img-footer2{
+    width: 8%;
+
+}
+.img-footer3{
+    width: 7%;
+
+}
+.img-footer4{
+    width: 8%;
+
+}
+.img-footer5{
+    width: 7%;
+
+}
+.img-footer6{
+    width: 9%;
+
+}
+.text-copy{
+    font-weight: bold;
+    position: relative;
+    left: -200%;
+}
+.box-text-footer{
+
+}
+.text-footer{
+    display: flex;
+    font-weight: 100;
+    text-transform: capitalize;
+    position: relative;
+    left: -88%;
+}

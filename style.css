@@ -17,17 +17,22 @@ body{
     align-items: center;
 }
 
-
 header{
     top: 0;
-    left: 0%;
+    left: 11%;
     position: fixed;
-    width: 100%;
+    width: 78%;
     height: 10%;
     opacity: 1;
-    background-color: white;
-
+    justify-content: space-between;
 }
+@media(max-width:375px){
+    header{
+        height: 55px;
+    }
+}
+
+
 .container-menu{
     margin: 0%;
     padding: 0%;
@@ -38,15 +43,33 @@ header{
 
 .logo-menu{
     position: fixed;
-    left: 6%;
+    left: 12%;
     font-family: 'Montsserat, Bold', sans-serif;
 
+}
+@media (max-width:375px) {
+    .logo-menu{
+        position: relative;
+        left: 162px;
+        top: -6px;
+    }
 }
 
 .box-list-menu{
     width: 40%;
     display: flex;
     flex-direction: row;
+}
+@media (max-width:375px) {
+    .box-list-menu{
+        width: 45%;
+        height: 50px;
+        position: relative;
+        left: -271px;
+        background-color: black;
+        
+    }
+    
 }
 .box-list{
     display: flex;
@@ -65,6 +88,11 @@ header{
     list-style: none;
     justify-content: space-evenly;
 }
+@media(max-width:375px){
+    .list-menu{
+        display: none;
+    }
+}
 .list-menu1{
     opacity: 35%;
     display: flex;
@@ -75,14 +103,23 @@ header{
     display: flex;
     font-weight: bold;
 }
+@media(max-width:375px){
+    .list-menu4{
+        display: none;
+    }
+}
 
 
 .img-laranja{
     width: 100%;
 }
-
-.box-laranja{
-
+@media(max-width: 375px){
+    .img-laranja{
+        width: 130%;
+        height: 650px;
+        position: relative;
+        top: -18px;
+    }
 }
 
 .text-imagine{
@@ -95,6 +132,12 @@ header{
     font-family: 'Montserrat, ExtraBold', sans-serif;
     color: #FFFFFF;
 }
+@media(max-width:375px){
+    .text-imagine{
+        top: 330px;
+
+    }
+}
 .text-fale{
     font-family: 'Montserrat,Light', sans-serif;
     display: flex;
@@ -105,6 +148,11 @@ header{
     font-weight: 100;
     opacity: 90%;
 }
+@media(max-width:375px){
+    .text-fale{
+        top:540px;
+    }
+}
 .box-prancheta{
     width: 83%;
     display: flex;
@@ -114,9 +162,28 @@ header{
     left: 10%;
     top: 110%;
 }
+@media(max-width:375px){
+    .box-prancheta{
+
+    }
+}
+.img-prancheta{
+
+}
+
+@media(max-width:375px){
+    .box-prancheta{
+        width: 135%;
+    }
+}
 
 .img-prancheta1{
     width: 24%;
+}
+@media(max-width:375px){
+    .img-prancheta1{
+        width: 80%;
+    }
 }
 
 
@@ -126,6 +193,13 @@ header{
     opacity: 1;
     position: absolute;
     top: 200%;
+}
+@media(max-width:375px){
+    .box-footer{
+        top: 1480px;
+
+    }
+
 }
 .container-footer{
     position: relative;
@@ -139,6 +213,16 @@ header{
     flex-direction: row;
     align-items: center;
 }
+@media(max-width:375px){
+    .container-footer{
+        width: 170%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 3980px;
+        left: -137px;
+    }
+}
    
 .box-img-footer{
     position: relative;
@@ -146,6 +230,17 @@ header{
     width: 25%;
     letter-spacing: 17px;
 }
+@media(max-width:375px){
+    .box-img-footer{
+
+        width: 127%;
+        background-color: #7FDBD4;
+        display: flex;
+        justify-content: space-evenly;
+        top: 55px;
+        left: 36px;
+    }
+    }
 
 
 .img-footer1{
@@ -177,6 +272,13 @@ header{
     position: relative;
     left: -200%;
 }
+@media (max-width:375px){
+    .text-copy{
+        top: 70px;
+    left: -132px;
+    font-size: 12px;
+    }
+}
 .box-text-footer{
 
 }
@@ -186,4 +288,11 @@ header{
     text-transform: capitalize;
     position: relative;
     left: -88%;
+}
+@media(max-width:375px){
+    .text-footer{
+        top: 35px;
+    left: -150px;
+    width: 13px;
+    }
 }

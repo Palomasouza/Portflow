@@ -3,6 +3,9 @@
 @import url('/home/vainaweb26/Desafiofinal/fonts/Montserrat-Light.ttf');
 
 *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif
 box-sizing: border-box;
     
 }
@@ -108,17 +111,18 @@ header{
         display: none;
     }
 }
-
-
 .img-laranja{
     width: 100%;
+    height: 83vh;
 }
 @media(max-width: 375px){
     .img-laranja{
-        width: 130%;
         height: 650px;
         position: relative;
         top: -18px;
+        background-image: url("/home/vainaweb26/Desafiofinal/Img/laranja azul recorte@2x.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
 }
 
@@ -162,18 +166,12 @@ header{
     left: 10%;
     top: 110%;
 }
-@media(max-width:375px){
-    .box-prancheta{
-
-    }
-}
-.img-prancheta{
-
-}
 
 @media(max-width:375px){
     .box-prancheta{
-        width: 135%;
+        width: 100%;
+        
+
     }
 }
 
@@ -207,7 +205,7 @@ header{
     top: 454%;
     background-color: rgb(220 220 220 / 29%);
     display: flex;
-    width: 199%;
+    width: 100%;
     height: 100%;
     justify-content: space-around;
     flex-direction: row;
@@ -215,7 +213,7 @@ header{
 }
 @media(max-width:375px){
     .container-footer{
-        width: 170%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         position: relative;
@@ -233,7 +231,7 @@ header{
 @media(max-width:375px){
     .box-img-footer{
 
-        width: 127%;
+        width: 100%;
         background-color: #7FDBD4;
         display: flex;
         justify-content: space-evenly;

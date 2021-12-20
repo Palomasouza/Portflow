@@ -22,9 +22,8 @@ body{
 
 header{
     top: 0;
-    left: 11%;
     position: fixed;
-    width: 78%;
+    width: 63%;
     height: 10%;
     opacity: 1;
     justify-content: space-between;
@@ -37,29 +36,30 @@ header{
 
 
 .container-menu{
+    width: 100%;
     margin: 0%;
     padding: 0%;
     flex-direction: row;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo-menu{
     position: fixed;
-    left: 12%;
+    left: 11.5%;
     font-family: 'Montsserat, Bold', sans-serif;
 
 }
 @media (max-width:375px) {
     .logo-menu{
-        position: relative;
         left: 162px;
-        top: -6px;
+        top: 9px;
     }
 }
 
 .box-list-menu{
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: row;
 }
@@ -68,7 +68,7 @@ header{
         width: 45%;
         height: 50px;
         position: relative;
-        left: -271px;
+        left: -188px;
         background-color: black;
         
     }
@@ -80,11 +80,12 @@ header{
 }
 .list-menu{
 
-    width: 552px;
-    height: 30px; 
-    position:relative;
-    left: 9.5%;
-    padding: 3%;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    padding: 0%;
+    top: 15px;
+    left: 100px;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -94,6 +95,18 @@ header{
 @media(max-width:375px){
     .list-menu{
         display: none;
+    }
+}
+.menu-hamburguer{
+    display: none;
+}
+@media(max-width:375px){
+    .menu-hamburguer{
+        position: relative;
+        left: 30px;
+        top: 6px;
+        width: 30%;
+        height: 4vh;
     }
 }
 .list-menu1{
@@ -128,10 +141,10 @@ header{
 
 .text-imagine{
     left: 10%;
-    top: 31%;
+    top: 40%;
     display: flex;
     position: absolute;
-    font-size: 320%;
+    font-size: 330%;
     font-weight: bold;
     font-family: 'Montserrat, ExtraBold', sans-serif;
     color: #FFFFFF;
@@ -169,12 +182,13 @@ header{
 
 @media(max-width:375px){
     .box-prancheta{
-        width: 100%;
+        margin: 0;
+        padding: 0;
+        width: 93%;
         
 
     }
 }
-
 .img-prancheta1{
     width: 24%;
 }
@@ -192,51 +206,41 @@ header{
     position: absolute;
     top: 200%;
 }
-@media(max-width:375px){
-    .box-footer{
-        top: 1480px;
 
-    }
-
-}
 .container-footer{
+    width: 100%;
     position: relative;
-    left: -100%;
-    top: 454%;
+    left: -47%;
+    top: 350%;
     background-color: rgb(220 220 220 / 29%);
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 100%;
-    justify-content: space-around;
     flex-direction: row;
     align-items: center;
+    justify-content:space-evenly;
 }
 @media(max-width:375px){
     .container-footer{
         width: 100%;
         display: flex;
+        top: 2554px;
         flex-direction: column;
-        position: relative;
-        top: 3980px;
-        left: -137px;
+        background: none;
     }
 }
    
 .box-img-footer{
-    position: relative;
-    left: 3.5%;
-    width: 25%;
     letter-spacing: 17px;
 }
 @media(max-width:375px){
     .box-img-footer{
 
-        width: 100%;
+        width: 138%;
+        height: 7vh;
         background-color: #7FDBD4;
         display: flex;
         justify-content: space-evenly;
-        top: 55px;
-        left: 36px;
     }
     }
 
@@ -265,6 +269,31 @@ header{
     width: 9%;
 
 }
+.topo{
+    display: none;
+}
+@media(max-width:375px){
+    .topo{
+     height: 3vh;
+    background-color: #707070;
+    background-size: #CCCCCC;
+    background-repeat: no-repeat;
+    width: 50px;
+    display: flex;
+    position: relative;
+    left: 110px;
+    top: -490px;
+}
+    }
+    @media(max-width:375px){
+        .box-copy{
+                margin: 0;
+                padding: 0;
+                position: relative;
+                top: -133px;
+        }
+    }
+
 .text-copy{
     font-weight: bold;
     position: relative;
@@ -272,25 +301,31 @@ header{
 }
 @media (max-width:375px){
     .text-copy{
-        top: 70px;
-    left: -132px;
     font-size: 12px;
     }
 }
 .box-text-footer{
 
 }
+@media(max-width:375px){
+    .box-text-footer{
+
+    }
+}
 .text-footer{
     display: flex;
     font-weight: 100;
     text-transform: capitalize;
     position: relative;
-    left: -88%;
+    left: -75%;
 }
 @media(max-width:375px){
     .text-footer{
-        top: 35px;
-    left: -150px;
-    width: 13px;
+        display: flex;
+        width: 13px;
+        justify-content: space-evenly;
+        position: relative;
+        top: -284px;
+        left: -19px;
     }
 }
